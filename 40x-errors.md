@@ -8,3 +8,4 @@
 |`{"ok":false,"error_code":429,"description":"Too Many Requests: retry after X","parameters":{"retry_after":X}}`|You are hitting the API limit, more information here|||
 |`{"ok":false,"error_code":400,"description":"Bad Request: group chat was migrated to a supergroup chat","parameters":{"mi (truncated...)`|||
 |`{"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}`||||
+|`{"ok":false,"error_code":400,"description":"Bad Request: message is not modified"}`||||
