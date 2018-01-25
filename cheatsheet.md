@@ -1,9 +1,10 @@
 | JSON         | Human Description| Action needed?    | Methods raising |
 |--------------|------------------|-------------------|-----------------|
 |`{"ok":false,"error_code":401,"description":"Unauthorized"}`|Bot token is incorrect|Correct your bot token and try again|any|
-|`{"ok":false,"error_code":400,"description":"Bad Request: chat not found"}`|?|?|any|
+|`{"ok":false,"error_code":400,"description":"Bad Request: chat not found"}`|||any|
 |`{"ok":false,"error_code":400,"description":"[Error]: Bad Request: user not found"}`|User_id is incorrect|Correct user_id|any|
-|`{"ok":false,"error_code":403,"description":"Forbidden: user is deactivated"} `||any|
+|`{"ok":false,"error_code":403,"description":"Forbidden: user is deactivated"} `|||sendMessage
+any(?)|
 |`{"ok":false,"error_code":403,"description":"Forbidden: bot was kicked from the group chat"}`|Bot was kicked|Delete chat_id on your side|sendMessage|
 |`{"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}`|||any|
 |`{"ok":false,"error_code":429,"description":"Too Many Requests: retry after X","parameters":{"retry_after":X}}`|You are hitting the API limit, more information here||sendMessage|
