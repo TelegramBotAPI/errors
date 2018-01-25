@@ -1,6 +1,8 @@
 # Telegram Bot API errors
 
-This is a list of actual errors and their meaning and maybe what you can do with them.
+This is a non-official list of actual errors you can encounter while developing your bot using the Telegram Bot API.
+
+The meaning, explanations, codes and other stuff in these errors may change at any given time, so don't trust too much on this list and use your common sense.
 
 If you want to contribute, include: 
 
