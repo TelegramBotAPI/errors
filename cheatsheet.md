@@ -9,4 +9,4 @@
 |`{"ok":false,"error_code":429,"description":"Too Many Requests: retry after X","parameters":{"retry_after":X}}`|You are hitting the API limit, more information here||sendMessage|
 |`{"ok":false,"error_code":400,"description":"Bad Request: group chat was migrated to a supergroup chat","parameters":{"mi (truncated...)`||sendMessage|
 |`{"ok":false,"error_code":400,"description":"Bad Request: invalid file id"}`| The file id you are trying to retrieve doesn't exist|Try to call getFile before downloading|getFile|
-|`{"ok":false,"error_code":400,"description":"Bad Request: message is not modified"}`|||EditMessage*|
+|`{"ok":false,"error_code":400,"description":"Bad Request: message is not modified"}`|||EditMessageText|
