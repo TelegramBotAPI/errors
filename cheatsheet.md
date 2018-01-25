@@ -1,6 +1,6 @@
 | JSON         | Human Description| Action needed?    | Methods raising |
 |--------------|------------------|-------------------|-----------------|
-|`{"ok":false,"error_code":401,"description":"Unauthorized"}`|Bot token is incorrect|Correct your bot token and try again|any|
+|[Unauthorized](errors/json/unauthorized.json)|Bot token is incorrect|Correct your bot token and try again|any|
 |`{"ok":false,"error_code":400,"description":"Bad Request: chat not found"}`|||any|
 |`{"ok":false,"error_code":400,"description":"[Error]: Bad Request: user not found"}`|User_id is incorrect|Correct user_id|any|
 |`{"ok":false,"error_code":403,"description":"Forbidden: user is deactivated"} `|||SendMessage<br />any(?)|
