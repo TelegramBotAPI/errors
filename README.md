@@ -28,3 +28,4 @@ This is the actual list that has been composed so far. Feel free to add more.
 |[Bad request: Invalid file id](json/bad-request-invalid-file-id.json)| The file id you are trying to retrieve doesn't exist|Try to call getFile before downloading|GetFile|
 |[Bad request: Message not modified](json/bad-request-message-not-modified.json)|||EditMessageText|
 |[Conflict: Terminated by other long poll](json/conflicted-terminated-by-other-long-poll.json)|You have already set up a webhook and are trying to get the updates via getUpdates|Do not use getUpdates|getUpdates|
+|[Bad request: Wrong parameter action in request](json/bad-request-wrong-parameter-action-in-request.json)||||sendChatAction|
