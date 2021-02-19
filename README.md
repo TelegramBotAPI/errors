@@ -20,7 +20,7 @@ This is the actual list that has been composed so far. Feel free to add more.
 |[Unauthorized](json/unauthorized.json)|Bot token is incorrect|Correct your bot token and try again|any|
 |[Bad Request: chat not found](json/bad-request-chat-not-found.json )|||any|
 |[Bad request: user not found](json/bad-request-user-not-found.json)|User_id is incorrect|Correct user_id|any|
-|[Forbidden: user is deactivated](json/forbidden-user-is-deactivated.json)|||SendMessage<br />any(?)|
+|[Forbidden: user is deactivated](json/forbidden-user-is-deactivated.json)|||SendMessage|
 |[Forbidden: bot was kicked](json/forbidden-bot-was-kicked.json)|Bot was kicked|Delete chat_id on your side|SendMessage|
 |[Forbidden: bot blocked by user](json/forbidden-bot-blocked-by-user.json)|||any|
 |[Forbidden: bot can't send messages to bots](json/forbidden-bot-cant-send-messages-to-bots.json)|You tried to send a message to another bot. This is not possible||sendMessage|
