@@ -1,1 +1,5 @@
-{ ok: false, error_code: 400, description: 'Bad Request: wrong parameter action in request' }
+{
+  "ok": false,
+  "error_code": 400,
+  "description": "Bad Request: wrong parameter action in request"
+}
