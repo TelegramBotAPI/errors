@@ -26,6 +26,7 @@ This is the actual list that has been composed so far. Feel free to add more.
 |[Bad Request: Group migrated to supergroup](json/bad-request-group-chat-migrated.json)| Occurs when a group chat has been converted/migrated to a supergroup| Check the provided `chat_id` and make sure the new Super Group ID is passed |sendMessage|
 |[Bad Request: Invalid file id](json/bad-request-invalid-file-id.json)| The file id you are trying to retrieve doesn't exist|Try to call getFile before downloading|getFile|
 |[Bad Request: Message not modified](json/bad-request-message-not-modified.json)|The current and new message text and reply markups are the same| Actually chanange the text or reply markup of the message to be edited|editMessageText|
+|[Bad Request: not enough rights to send photos to the chat](json/bad-request-not-enough-rights-photos.json)|Bot lacks permission to send photos|Grant appropriate permissions to bot|sendPhoto|
 |[Bad Request: not enough rights to send text messages to the chat](json/bad-request-not-enough-rights-text.json)|Bot lacks permission to send text messages|Grant appropriate permissions to bot|sendMessage|
 |[Bad Request: user not found](json/bad-request-user-not-found.json)|User_id is incorrect|Correct user_id|any|
 |[Bad Request: Wrong parameter action in request](json/bad-request-wrong-parameter-action-in-request.json)| Occurs when the `action` property value is invalid | Provide a valid value to the `action` property as [specified in the documentation](https://core.telegram.org/bots/api#sendchataction) |sendChatAction|
