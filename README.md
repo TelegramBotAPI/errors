@@ -32,7 +32,7 @@ This is the actual list that has been composed so far. Feel free to add more.
 |[Bad Request: message to edit not found](json/bad-request-message-to-edit-not-found.json)|The message for editing has been deleted or is unavailable|Verify the existence of the message and bot rights|editMessageText, editMessageCaption|
 |[Bad Request: not enough rights to send photos to the chat](json/bad-request-not-enough-rights-photos.json)|Bot lacks permission to send photos|Grant appropriate permissions to bot|sendPhoto|
 |[Bad Request: not enough rights to send text messages to the chat](json/bad-request-not-enough-rights-text.json)|Bot lacks permission to send text messages|Grant appropriate permissions to bot|sendMessage|
-|[Bad Request: PEER_ID_INVALID](json/bad-request-peer-id-invalid.json)||Invalid chat/user ID. It often occurs when the bot has not seen the user in a group or private chat|-|sendMessage, getChat|
+|[Bad Request: PEER_ID_INVALID](json/bad-request-peer-id-invalid.json)|Invalid chat/user ID. It often occurs when the bot has not seen the user in a group or private chat|-|sendMessage, getChat|
 |[Bad Request: reply message not found](json/bad-request-reply-message-not-found.json)|Message being replied to doesn't exist|Remove reply_to_message_id or verify message exists|sendMessage|
 |[Bad Request: user not found](json/bad-request-user-not-found.json)|User_id is incorrect|Correct user_id|any|
 |[Bad Request: Wrong parameter action in request](json/bad-request-wrong-parameter-action-in-request.json)| Occurs when the `action` property value is invalid | Provide a valid value to the `action` property as [specified in the documentation](https://core.telegram.org/bots/api#sendchataction) |sendChatAction|
