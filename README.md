@@ -24,6 +24,7 @@ This is the actual list that has been composed so far. Feel free to add more.
 |[Bad Request: group is deactivated](json/bad-request-group-deactivated.json)|Target group has been deactivated|Remove chat_id from bot database|sendMessage|
 |[Bad Request: Group migrated to supergroup](json/bad-request-group-chat-migrated.json)| Occurs when a group chat has been converted/migrated to a supergroup| Check the provided `chat_id` and make sure the new Super Group ID is passed |sendMessage|
 |[Bad Request: Invalid file id](json/bad-request-invalid-file-id.json)| The file id you are trying to retrieve doesn't exist|Try to call getFile before downloading|getFile|
+|[Bad Request: member not found](json/bad-request-member-not-found.json)|The specified user is not a member of the target chat|Ensure the user is in the chat and has interacted with the bot|getChatMember, banChatMember, getChatAdministrators|
 |[Bad Request: message can't be deleted](json/bad-request-message-cant-be-deleted.json)|Insufficient permissions to delete message|Check bot permissions and message age (48h limit)|deleteMessage|
 | [Bad Request: message can't be edited](json/bad-request-message-cant-be-edited.json) | The message text cannot be edited | Check is message belong to chat or is message exist in chat | editMessageText |
 |[Bad Request: Message not modified](json/bad-request-message-not-modified.json)|The current and new message text and reply markups are the same| Actually chanange the text or reply markup of the message to be edited|editMessageText|
