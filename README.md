@@ -19,6 +19,7 @@ This is the actual list that has been composed so far. Feel free to add more.
 |--------------|------------------|-------------------|:---------------:|
 |[Bad Request: BUTTON_URL_INVALID](json/bad-request-button-url-invalid.json)|Invalid URL format in inline keyboard button|Correct the URL format or protocol|sendMessage, editMessageText|
 |[Bad Request: chat not found](json/bad-request-chat-not-found.json )|The chat is unknown to the bot.| Double check the provided `chat_id`|any|
+|[Bad Request: message can't be deleted](json/bad-request-message-cant-be-deleted.json)|Insufficient permissions to delete message|Check bot permissions and message age (48h limit)|deleteMessage|
 | [Bad Request: message can't be edited](json/bad-request-message-cant-be-edited.json) | The message text cannot be edited | Check is message belong to chat or is message exist in chat | editMessageText |
 | [Bad Request: message text is empty](json/bad-request-message-text-is-empty.json) | The message text is empty or not provided | Provide a valid message text | sendMessage, editMessageText |
 |[Bad Request: message to delete not found](json/bad-request-message-to-delete-not-found.json)|Message with specified ID doesn't exist|Verify message ID exists in chat|deleteMessage|
