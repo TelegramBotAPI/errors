@@ -36,6 +36,7 @@ This is the actual list that has been composed so far. Feel free to add more.
 | [Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first](json/webhook-is-active.json) | You are trying to use getUpdates while a webhook is active | Use deleteWebhook to delete the webhook first | getUpdates |
 |[Conflict: Terminated by other long poll](json/conflicted-terminated-by-other-long-poll.json)|You have already set up a webhook and are trying to get the updates via getUpdates|Do not use getUpdates|getUpdates|
 |[Forbidden: bot blocked by user](json/forbidden-bot-blocked-by-user.json)| The user have blocked the bot ||any|
+|[Forbidden: bot can't initiate conversation with a user](json/forbidden-cant-initiate-conversation.json)|User must start conversation with bot first|Wait for user to start the bot|sendMessage|
 |[Forbidden: bot can't send messages to bots](json/forbidden-bot-cant-send-messages-to-bots.json)|You tried to send a message to another bot. This is not possible||sendMessage|
 |[Forbidden: bot is not a member of the channel chat](json/forbidden-bot-not-member-channel.json)|Bot is not a member of the channel|Add bot to the channel|sendMessage, deleteMessage|
 |[Forbidden: bot is not a member of the supergroup chat](json/forbidden-bot-not-member-supergroup.json)|Bot is not a member of the supergroup|Add bot to the supergroup|sendMessage, getChatAdministrators|
