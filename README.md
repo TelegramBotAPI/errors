@@ -32,6 +32,7 @@ This is the actual list that has been composed so far. Feel free to add more.
 |[Conflict: Terminated by other long poll](json/conflicted-terminated-by-other-long-poll.json)|You have already set up a webhook and are trying to get the updates via getUpdates|Do not use getUpdates|getUpdates|
 |[Forbidden: bot blocked by user](json/forbidden-bot-blocked-by-user.json)| The user have blocked the bot ||any|
 |[Forbidden: bot can't send messages to bots](json/forbidden-bot-cant-send-messages-to-bots.json)|You tried to send a message to another bot. This is not possible||sendMessage|
+|[Forbidden: bot is not a member of the channel chat](json/forbidden-bot-not-member-channel.json)|Bot is not a member of the channel|Add bot to the channel|sendMessage, deleteMessage|
 |[Forbidden: bot is not a member of the supergroup chat](json/forbidden-bot-not-member-supergroup.json)|Bot is not a member of the supergroup|Add bot to the supergroup|sendMessage, getChatAdministrators|
 |[Forbidden: bot was kicked](json/forbidden-bot-was-kicked.json)|Bot was kicked|Delete `chat_id` on your side|sendMessage|
 |[Forbidden: user is deactivated](json/forbidden-user-is-deactivated.json)|You're trying to perform an action on a user account that has been deactivated or deleted| Double check the user I|sendMessage|
