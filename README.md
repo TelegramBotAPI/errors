@@ -18,6 +18,7 @@ This is the actual list that has been composed so far. Feel free to add more.
 | JSON         | Human Description| Action needed?    | Methods raising |
 |--------------|------------------|-------------------|:---------------:|
 |[Unauthorized](json/unauthorized.json)|Bot token is incorrect|Correct your bot token and try again|any|
+|[Bad Request: BUTTON_URL_INVALID](json/bad-request-button-url-invalid.json)|Invalid URL format in inline keyboard button|Correct the URL format or protocol|sendMessage, editMessageText|
 |[Bad Request: chat not found](json/bad-request-chat-not-found.json )|The chat is unknown to the bot.| Double check the provided `chat_id`|any|
 |[Bad request: user not found](json/bad-request-user-not-found.json)|User_id is incorrect|Correct user_id|any|
 |[Forbidden: user is deactivated](json/forbidden-user-is-deactivated.json)|You're trying to perform an action on a user account that has been deactivated or deleted| Double check the user I|sendMessage|
