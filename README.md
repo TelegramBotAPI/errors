@@ -26,6 +26,7 @@ This is the actual list that has been composed so far. Feel free to add more.
 | [Bad Request: message can't be edited](json/bad-request-message-cant-be-edited.json) | The message text cannot be edited | Check is message belong to chat or is message exist in chat | editMessageText |
 | [Bad Request: message text is empty](json/bad-request-message-text-is-empty.json) | The message text is empty or not provided | Provide a valid message text | sendMessage, editMessageText |
 |[Bad Request: message to delete not found](json/bad-request-message-to-delete-not-found.json)|Message with specified ID doesn't exist|Verify message ID exists in chat|deleteMessage|
+|[Bad Request: message to edit not found](json/bad-request-message-to-edit-not-found.json)|The message for editing has been deleted or is unavailable|Verify the existence of the message and bot rights|editMessageText, editMessageCaption|
 |[Bad Request: Group migrated to supergroup](json/bad-request-group-chat-migrated.json)| Occurs when a group chat has been converted/migrated to a supergroup| Check the provided `chat_id` and make sure the new Super Group ID is passed |sendMessage|
 |[Bad Request: Invalid file id](json/bad-request-invalid-file-id.json)| The file id you are trying to retrieve doesn't exist|Try to call getFile before downloading|getFile|
 |[Bad Request: Message not modified](json/bad-request-message-not-modified.json)|The current and new message text and reply markups are the same| Actually chanange the text or reply markup of the message to be edited|editMessageText|
